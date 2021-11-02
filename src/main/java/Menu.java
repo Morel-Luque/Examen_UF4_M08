@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 /**
+ * Aquesta classe es l'encarregada de mostrar els Menus amb els quals interactuara l'usuari
  * @author Morel Luque Martínez
  * @version 0.2
  *
- * Aquesta classe es l'encarregada de mostrar els Menus amb els quals interactuara l'usuari
  */
 
 public class Menu {

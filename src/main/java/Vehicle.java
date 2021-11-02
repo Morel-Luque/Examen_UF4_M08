@@ -1,8 +1,8 @@
 /**
+ * Aquesta classe es la pare de la qual hereten Cotxe i Bicicleta
  * @author Morel Luque Martínez
  * @version 0.2
  *
- * Aquesta classe es la pare de la qual hereten Cotxe i Bicicleta
  */
 
 public abstract class Vehicle {

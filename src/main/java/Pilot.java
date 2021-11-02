@@ -1,10 +1,10 @@
 import java.util.Date;
 
 /**
+ * Aquesta classe es la classe que crea els Pilots de cada Vehicle
  * @author Morel Luque Martínez
  * @version 0.2
  *
- * Aquesta classe es la classe que crea els Pilots de cada Vehicle
  */
 
 public class Pilot {

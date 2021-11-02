@@ -4,11 +4,11 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
+ * Aquesta classe es la "principal" (tot i que no es l'executable) perque es la que conte com funciona el joc,
+ * quines coses es poden realitzar com per exemple: iniciar el joc, afegir participants, mostrar el resultat final...
  * @author Morel Luque Martínez
  * @version 0.2
  *
- * Aquesta classe es la "principal" (tot i que no es l'executable) perque es la que conte com funciona el joc,
- * quines coses es poden realitzar com per exemple: iniciar el joc, afegir participants, mostrar el resultat final...
  */
 
 public class Game {

@@ -1,9 +1,9 @@
 /**
+ * Aquesta es la classe Cotxe que hereda de la classe abstracta Vehicle
+ * Només disposa del constructor que crida al constructor de la classe pare
  * @author Morel Luque Martínez
  * @version 0.2
  *
- * Aquesta es la classe Cotxe que hereda de la classe abstracta Vehicle
- * Només disposa del constructor que crida al constructor de la classe pare
  */
 
 public class Cotxe extends Vehicle {

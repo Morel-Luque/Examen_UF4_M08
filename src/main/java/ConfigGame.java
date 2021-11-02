@@ -1,9 +1,9 @@
 /**
+ * Aquesta classe es l'encarregada de la configuracio del joc
+ * S'encarrega de guardar i mostrar qui juga, quants corredors hi ha i quantes voltes es fan
  * @author Morel Luque Martínez
  * @version 0.2
  *
- * Aquesta classe es l'encarregada de la configuracio del joc
- * S'encarrega de guardar i mostrar qui juga, quants corredors hi ha i quantes voltes es fan
  */
 public class ConfigGame {
     private String username;
