@@ -1,17 +1,32 @@
 import java.util.Scanner;
 
+/**
+ * @author Morel Luque Martínez
+ * @version 0.2
+ *
+ * Aquesta classe es l'encarregada de mostrar els Menus amb els quals interactuara l'usuari
+ */
+
 public class Menu {
     private Scanner in = new Scanner(System.in);
     private int opcio;
     ConfigGame configGame;
     Game game;
 
+    /**
+     * Constructor de la classe Menu
+     * @param game El joc que s'inicia
+     * @param config La configuracio del joc que s'inicia
+     */
     public Menu(Game game, ConfigGame config) {
         opcio = -1;
         this.game = game;
         configGame = config;
     }
 
+    /**
+     * Funcio que mostra el menu principal quan entrem al joc
+     */
     public void menuPrincipal() {
         do {
             System.out.println("1. Configuració : " + configGame);
@@ -42,18 +57,27 @@ public class Menu {
         }while(opcio != 0);
     }
 
+    /**
+     * Funcio que mostrara i aplicara la configuracio que tindra la partida actual
+     */
     public void setConfig() {
         System.out.println("Entra el teu nom: ");
         String n = in.nextLine();
         configGame.setUsername(n);
         System.out.println("Quants participants hi haurà al campionat? ");
         configGame.setNumRunners(in.nextInt());
-        in.nextLine(); //per esborrar el salt de línia
+        /**
+         * per esborrar el salt de línia
+         */
+        in.nextLine();
         System.out.println("Quants circuits tindrà el campionat?");
         configGame.setNumTracks(in.nextInt());
         in.nextLine();
     }
 
+    /**
+     * Funcio que ens permetra escollir amb el vehicle que farem el campionat
+     */
     public void play() {
         System.out.println("Amb quin vehicle vols fer el campionat?");
         System.out.println("1) Bicicletes");
